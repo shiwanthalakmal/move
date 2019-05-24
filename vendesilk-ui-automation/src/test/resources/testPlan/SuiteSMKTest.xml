@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="VendesiLK - WEB" verbose="1" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.vendesilk.ui.listener.TestNgListener"/>
+    </listeners>
+    <test name="VendesiLK Registration">
+        <classes>
+            <class name="com.vendesilk.ui.testcases.HelloFreshTest"/>
+        </classes>
+    </test>
+</suite>

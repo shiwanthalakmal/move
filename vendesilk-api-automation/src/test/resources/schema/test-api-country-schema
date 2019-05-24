@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "properties": {
+    "RestReponse": {
+      "type": "object",
+      "properties": {
+        "messages": {
+          "type": "array"
+        },
+        "result": {
+          "type": "object",
+          "properties": {
+            "name": {"type": "string"},
+            "alpha2_code": {"type": "string"},
+            "alpha3_code": {"type": "string"}
+          },
+          "required": ["name", "alpha2_code", "alpha3_code"]
+        }
+      }
+    }
+  }
+}
